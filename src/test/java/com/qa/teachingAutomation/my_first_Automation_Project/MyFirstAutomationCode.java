@@ -10,6 +10,7 @@ public class MyFirstAutomationCode {
 		driver.manage().window().maximize();
 		driver.get("https://amazon.com");
 		System.out.println(driver.getCurrentUrl());
+		System.out.println(driver.getTitle());
 		driver.quit();
 		
 	}
